@@ -3,14 +3,15 @@
  *  Copyright (c) 2013 Nenad Markus
  */
 
-#include <stdio.h>
+#include "picornt.h"
 
 // OpenCV 3.x required
-// depending on your computer configuration (OpenCV install path), the following line might need modifications
-#include "/usr/local/include/opencv2/highgui/highgui_c.h"
+#include "opencv2/highgui/highgui_c.h"
+#include "opencv2/imgcodecs/imgcodecs_c.h"
+#include "opencv2/imgproc/imgproc_c.h"
+#include "opencv2/videoio/videoio_c.h"
 
-//
-#include "../picornt.h"
+#include <stdio.h>
 
 /*
 	a portable time function
